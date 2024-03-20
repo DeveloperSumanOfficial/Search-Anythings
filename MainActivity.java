@@ -1,26 +1,13 @@
 package com.searchanythings.devsuman;
 
-import static androidx.core.content.ContentProviderCompat.requireContext;
-
 import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.FrameLayout;
-import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
-import androidx.activity.OnBackPressedCallback;
-import androidx.activity.OnBackPressedDispatcherOwner;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
         webView.loadUrl("https://www.google.com/");
 
 
-
-
     }
 
     @Override
@@ -57,12 +42,9 @@ public class MainActivity extends AppCompatActivity {
             webView.goBack();
         else
             finish();
-
     }
 
+
 }
-
-
-
 
 
