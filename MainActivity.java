@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         webSettings.setJavaScriptEnabled(true);
 
-        webView.loadUrl("https://www.google.com/");
+        webView.loadUrl("https://duckduckgo.com/");
 
 
     }
